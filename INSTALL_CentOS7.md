@@ -20,7 +20,7 @@ sed -i 's/^SELINUX=.*/SELINUX=disabled/' /etc/sysconfig/selinux
 ```
 ##### Add Percona Repository
 ```
-yum install -y http://www.percona.com/downloads/percona-release/redhat/0.1-6/percona-release-0.1-6.noarch.rpm
+yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
 ```
 ##### Install Percona-XtraDB-Cluster
 ```
